@@ -46,7 +46,7 @@ public class Persona {
 	}
 	
 	public void mostrarInformacion() {
-		System.out.println("## Informacion ##");
+		
 		System.out.println("Nombre: "+this.nombre);
 		System.out.println("Apellido: "+this.apellido);
 		System.out.println("DNI: "+this.dni);
