@@ -5,13 +5,13 @@ public class Empleado extends Persona{
 	
 	private double sueldoBasico;
 	private int num_legajo;
-	private static int num_legajo_siguiente=1;
+	private static int num_legajo_siguiente=10;
 	
 	public Empleado(String n, String a, int dni, String d, double sb) {
 		super(n,a,dni,d);
 		this.sueldoBasico=sb;
 		this.num_legajo=num_legajo_siguiente;
-		this.num_legajo_siguiente++;
+		num_legajo_siguiente++;
 	}
 	
 	

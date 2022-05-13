@@ -35,6 +35,7 @@ public class ejercicio_4 {
 		}
 		
 		System.out.println("Total a pagar: " + subTotal);
+		entrada.close();
 	}
 
 }
